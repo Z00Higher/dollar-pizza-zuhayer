@@ -1,5 +1,5 @@
 import React from 'react';
-import meat from './images/plain.jpg';
+import meat from './images/meat.jpg';
 import './css/slice.css';
 
 function MeatLover() {

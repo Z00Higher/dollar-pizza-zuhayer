@@ -1,5 +1,5 @@
 import React from 'react';
-import pepperoni from './images/plain.jpg';
+import pepperoni from './images/pepperoni.jpg';
 import './css/slice.css';
 
 function Pepperoni() {
@@ -8,7 +8,7 @@ function Pepperoni() {
       <div className="card">
         <img src={ pepperoni } class="card-img-top" alt="..."/>
         <div className="card-body">
-          <h5 className="card-title">Plain Slice</h5>
+          <h5 className="card-title">Pepperoni Pizza</h5>
           <p className="card-text">It's got cheese, it's got tomato sauce, and it's only  a dollar. What more could you ask for?</p>
         </div>
         <ul className="list-group list-group-flush">
