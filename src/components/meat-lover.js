@@ -8,8 +8,8 @@ function MeatLover() {
       <div className="card">
         <img src={ meat } class="card-img-top" alt="..."/>
         <div className="card-body">
-          <h5 className="card-title">Plain Slice</h5>
-          <p className="card-text">It's got cheese, it's got tomato sauce, and it's only  a dollar. What more could you ask for?</p>
+          <h5 className="card-title">Meat-Lover Slice</h5>
+          <p className="card-text">It's got cheese, it's got tomato sauce, and it's got ham and many sort of meat to make a delcious met-lover pizza slice.</p>
         </div>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">Price: $10.00</li>
