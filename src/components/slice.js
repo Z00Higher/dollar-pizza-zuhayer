@@ -1,0 +1,27 @@
+import React from 'react';
+import plain from './images/plain.jpg';
+import bbq from './images/bbq.jpg';
+import Pepperoni from './images/pepperoni.jpg';
+import hawaiian from './images/hawaiian.jpg';
+import veggie from './images/veggie.jpeg';
+import MeatLover from './images/meat.jpg'
+import './css/slice.css';
+
+function Slice(props) {
+  return(
+    <div className="Plain col-4">
+      <div className="card">
+        <img src={ props.img } class="card-img-top" alt="..."/>
+        <div className="card-body">
+          <h5 className="card-title">{props.title}</h5>
+          <p className="card-text">{props.description}</p>
+        </div>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">{props.price}</li>
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export default Slice;
